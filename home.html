@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0"/>
+  <title>首页</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./fonts/iconfont.css">
+</head>
+<body>
+ <!--网页内容-->
+    <div class="wap_layout">
+        <!--搜索头部-->
+        <header class="wap_header">
+            <!--内容容器-->
+            <!-- add_border  给wap_header_box添加一个类 -->
+            <div class="add_round_border clearfix">
+                  <div class="wap_header_box">
+                    <a href="#" class="icon_logo"></a>
+                    <!--在移动端调用小键盘的时候 把我们的enter改为搜索按钮-->
+                    <!-- 给form 添加 class="form_search" -->
+                    <form action="" id="form_search">
+                      <span class="icon_search"></span>
+                      <input type="search" class="show_search"/>
+                      <input type="search" class="hide_search" style="display: none;"/>
+                      <a href="javascript:;" class="close_search" style="display: none;">×</a>
+                      <a href="javascript:;" class="search_submit" style="display: none;"><span class="icon_search_submit"></span></a>
+                    </form>
+                    <a href="#" class="login">登录</a>
+                  </div>
+                  <div id="header_hot" class="header_hot" style="display: none;"> 
+                    热门搜索：
+                     <a href="#">面膜眼霜</a>
+                     <a href="#">面膜</a>
+                     <a href="#">护肤套装</a>
+                  </div>
+            </div>
+        </header>
+        <!-- 轮播图 -->
+        <div class="wap_banner">
+          <ul class="clearfix">
+            <li><a href="#"><img src="./images/ad04.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/ad01.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/ad02.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/ad04.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/ad01.jpg" alt=""></a></li>
+          </ul>
+          <ul>
+            <li class="now"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <!-- 导航栏 -->
+        <div class="wap_nav">
+          <ul class="clearfix">
+            <li><a href="javascript:;"><img src="./images/i_1.png" alt=""><p>全部商品</p></a></li>
+            <li><a href="javascript:;"><img src="./images/i_2.png" alt=""><p>全部商品</p></a></li>
+            <li><a href="javascript:;"><img src="./images/i_3.png" alt=""><p>全部商品</p></a></li>
+            <li><a href="javascript:;"><img src="./images/i_4.png" alt=""><p>购物车</p></a></li>
+            <li><a href="javascript:;"><img src="./images/i_5.png" alt=""><p>全部商品</p></a></li>
+            <li><a href="javascript:;"><img src="./images/i_6.png" alt=""><p>全部商品</p></a></li>
+            <li><a href="javascript:;"><img src="./images/i_7.png" alt=""><p>全部商品</p></a></li>
+            <li><a href="javascript:;"><img src="./images/i_8.png" alt=""><p>全部商品</p></a></li>
+          </ul>
+        </div>
+        <!-- 广告ad -->
+        <div class="ad_link">
+          <img src="./images/AD_10.png" >
+        </div>
+        <!-- 商品主体 -->
+        <main class="wap_product">
+          <!-- 产品热销 -->
+          <section class="product_box tborder">
+            <div class="product_title">
+              <h3>产品热销</h3>
+              <a href="javascript:;" class="more f_right">更多></a>
+            </div>
+            <div class="product_con tborder bborder ">
+              <a href="javascript:;" class="a-box rborder hotproduct">
+                <span class="new_rank">
+                  <img src="./images/label_icon.png" alt="">
+                </span>
+                <img src="./products/p_1.jpg" alt="">
+                <p class="ove-p">僧优秀到僧优秀到后来看上当了卡ddd后僧优秀到后来看上当了卡ddd来看上当了卡ddd</p>
+                <span class="price"><em>￥</em>34.11</span>
+              </a>
+              <a href="javascript:;" class="a-box rborder hotproduct">
+                <span class="new_rank">
+                  <img src="./images/label_icon.png" alt="">
+                </span>
+                <img src="./products/p_2.jpg" alt="">
+                <p class="ove-p">
+                僧优秀到后来看上当了奥斯卡sadsdsadsad啥客户说考虑好独立思考</p>
+                <span class="price"><em>￥</em>34.11</span>
+              </a>
+              <a href="javascript:;" class="a-box hotproduct">
+                <span class="new_rank">
+                  <img src="./images/label_icon.png" alt="">
+                </span>
+                <img src="./products/p_3.jpg" alt="">
+                <p class="ove-p">僧优秀僧优秀僧优秀到后来看上当了卡ddd到后来看上当了卡ddd到后来看上奥斯卡retr</p>
+                <span class="price"><em>￥</em>34.11</span>
+              </a>
+            </div>
+          </section>
+         <!-- 限时特卖 -->
+         <section class="product_box product_box_tm">
+           <div class="product_title">
+             <h3>限时特卖</h3>
+             <a href="javascript:;" class="more f_right">更多></a>
+           </div>
+           <div class="product_con product_cons bborder tborder">
+            <a href="javascript:;" class="w_50 f_left rborder">
+              <span class="product">￥289</span>
+              <img src="./products/p_4.jpg" alt="">
+              <div class="tit-time">
+                 <p class="ove-p">五粮液水晶装</p>
+                 <span class="tm">倒计时：<em>1200</em>时<em>30</em>分<em>28</em>秒</span>
+               </div>
+            </a>
+             <a href="javascript:;" class="w_50 f_right bborder">
+               <span class="product">￥289</span>
+               <img src="./products/s3.jpg" alt="">
+               <div class="tit-time">
+                 <p class="ove-p">德芙巧克力</p>
+                 <span class="tm">倒计时：<em>1200</em>时<em>30</em>分<em>28</em>秒</span>
+               </div>
+             </a>
+             <a href="javascript:;" class="w_50 f_right">
+               <span class="product">￥289</span>
+               <img src="./products/s2.jpg" alt="">
+               <div class="tit-time">
+                 <p class="ove-p">SK-II神仙水</p>
+                 <span class="tm">倒计时：<em>1200</em>时<em>30</em>分<em>28</em>秒</span>
+               </div>
+             </a>
+           </div>
+         </section>
+          <!-- 脸部护理 -->
+         <section class="product_box product_box_tm">
+           <div class="product_title">
+             <h3>脸部护理</h3>
+             <a href="javascript:;" class="more f_right">更多></a>
+           </div>
+           <div class="product_con product_cons bborder tborder">
+            <a href="javascript:;" class="w_50 f_right lborder">
+              <img src="./products/ad/ad_1.jpg" alt="">
+            </a>
+             <a href="javascript:;" class="w_50 f_left bborder">
+               <img src="./products/ad/ad_2.jpg" alt="">
+             </a>
+             <a href="javascript:;" class="w_50 f_left ">
+               <img src="./products/ad/ad_3.jpg" alt="">
+             </a>
+           </div>
+         </section>
+         <!-- 身体护理 -->
+         <section class="product_box product_box_tm">
+           <div class="product_title">
+             <h3>身体护理</h3>
+             <a href="javascript:;" class="more f_right">更多></a>
+           </div>
+           <div class="product_con bborder  tborder">
+            <a href="javascript:;" class="w_50 f_left rborder">
+              <img src="./products/ad/ad_1.jpg" alt="">
+            </a>
+             <a href="javascript:;" class="w_50 f_left bborder">
+               <img src="./products/ad/ad_2.jpg" alt="">
+             </a>
+             <a href="javascript:;" class="w_50 f_right ">
+               <img src="./products/ad/ad_3.jpg" alt="">
+             </a>
+           </div>
+         </section>
+         <!-- 香水彩妆 -->
+         <section class="product_box product_box_tm">
+           <div class="product_title">
+             <h3>香水彩妆</h3>
+             <a href="javascript:;" class="more f_right">更多></a>
+           </div>
+           <div class="product_con bborder  tborder">
+            <a href="javascript:;" class="w_50 f_left rborder">
+              <img src="./products/ad/ad_1.jpg" alt="">
+            </a>
+             <a href="javascript:;" class="w_50 f_left bborder">
+               <img src="./products/ad/ad_2.jpg" alt="">
+             </a>
+             <a href="javascript:;" class="w_50 f_right ">
+               <img src="./products/ad/ad_3.jpg" alt="">
+             </a>
+           </div>
+         </section>
+         <!-- 用户产品 -->
+         <section class="product_box product_box_tm">
+           <div class="product_title">
+             <h3>用户产品</h3>
+             <a href="javascript:;" class="more f_right">更多></a>
+           </div>
+           <div class="spacing tborder ">
+             <div class="item w_50 tdashed">
+              <a href="#"><img src="./products/p_4.jpg" alt=""></a>
+              <p class="ove-p">【五斤原浆大坛】杏花村汾酒产地 53度2500ml 清</p>
+              <span class="price">￥23.00</span>
+              <span class="icon_car f_right"></span>
+             </div>
+             <div class="item w_50 tdashed">
+              <a href="#"><img src="./products/p_5.jpg" alt=""></a>
+              <p class="ove-p">【五斤原浆大坛】杏花村汾酒产地 53度2500ml 清</p>
+              <span class="price">￥23.00</span>
+              <span class="icon_car f_right"></span>
+             </div>
+             <div class="item w_50 tdashed">
+              <a href="#"><img src="./products/p_5.jpg" alt=""></a>
+              <p class="ove-p">【五斤原浆大坛】杏花村汾酒产地 53度2500ml 清</p>
+              <span class="price">￥23.00</span>
+              <span class="icon_car f_right"></span>
+             </div>
+             <div class="item w_50 tdashed">
+              <a href="#"><img src="./products/p_5.jpg" alt=""></a>
+              <p class="ove-p">【五斤原浆大坛】杏花村汾酒产地 53度2500ml 清</p>
+              <span class="price">￥23.00</span>
+              <span class="icon_car f_right"></span>
+             </div>
+             <div class="item w_50 tdashed">
+              <a href="#"><img src="./products/p_5.jpg" alt=""></a>
+              <p class="ove-p">【五斤原浆大坛】杏花村汾酒产地 53度2500ml 清</p>
+              <span class="price">￥23.00</span>
+              <span class="icon_car f_right"></span>
+             </div>
+             <div class="item w_50 tdashed">
+              <a href="#"><img src="./products/p_5.jpg" alt=""></a>
+              <p class="ove-p">【五斤原浆大坛】杏花村汾酒产地 53度2500ml 清</p>
+              <span class="price">￥23.00</span>
+              <span class="icon_car f_right"></span>
+             </div>
+              <div class="item w_50 tdashed">
+              <a href="#"><img src="./products/p_5.jpg" alt=""></a>
+              <p class="ove-p">【五斤原浆大坛】杏花村汾酒产地 53度2500ml 清</p>
+              <span class="price">￥23.00</span>
+              <span class="icon_car f_right"></span>
+             </div>
+              <div class="item w_50 tdashed">
+              <a href="#"><img src="./products/p_5.jpg" alt=""></a>
+              <p class="ove-p">【五斤原浆大坛】杏花村汾酒产地 53度2500ml 清</p>
+              <span class="price">￥23.00</span>
+              <span class="icon_car f_right"></span>
+             </div>
+           </div>
+         </section>
+         <!-- 更多产品 -->
+         <section class="more_product">
+            <a href="#">
+              更多产品
+            </a>
+         </section>
+        </main>
+        <!-- 底部注册登录 -->
+        <footer class="Wap-footer">
+          <div class="log_sign">
+            <a href="#">登录</a>
+            |
+            <a href="#">注册</a>
+          </div>
+          <div class="Copyright">
+            <a href="#" class="iconfont icon-home1"></a>
+            Copyright © 2015-2015 All Rights Reserved.
+            成都军乐酒业有限公司版权所有
+            <a href="./" class="iconfont icon-top1"></a>
+        </div>
+        </footer>
+  </div>
+   <!-- 固定栏目样式 -->
+        <div class="global-nav">
+            <div class="nav_box">
+                <a href="#" class="home_item">
+                  <i class="iconfont icon-home1"></i>
+                  <span class="global-nav__nav-tit">首页</span>
+                </a>
+            </div>
+            <div class="nav_box">
+                <a href="#" class="home_item">
+                  <i class="iconfont icon-fenlei"></i>
+                  <span class="global-nav__nav-tit">分类</span>
+                </a>
+            </div>
+            <div class="nav_box">
+                <a href="#" class="home_item">
+                  <i class="iconfont icon-shijian"></i>
+                  <span class="global-nav__nav-tit">购物车</span>
+                  <span class="global-nav__nav-shop-cart-num">0</span>
+                </a>
+            </div>
+            <div class="nav_box">
+                <a href="#" class="home_item">
+                  <i class="iconfont icon-leijiyonghu"></i>
+                  <span class="global-nav__nav-tit">我的宏颜</span>
+                </a>
+            </div>
+        </div>
+  <script src="./js/bannejs.js"></script>
+  <script src="./js/zepto.min.js"></script> 
+  <script src="./js/selector.js"></script>
+  <script src="./js/fx.js"></script>
+  <script src="./js/touch.js"></script>
+  <script>
+    $(function(){
+      // 搜索点击
+      $('.show_search').on('click',function(){
+      $(this).hide();
+      $('.wap_header_box').addClass('add_border');
+      $('.icon_logo').hide();
+      $('.icon_search').hide();
+      $('.login').hide();
+      $('#form_search').addClass('form_search');
+      $('#form_search .hide_search').show();
+      $('.close_search').show();
+      $('.search_submit').show();
+      $('#header_hot').show();
+    });
+
+    $('.close_search').on('click',function(){
+      $(this).hide().siblings('.search_submit,.hide_search').hide().siblings('.show_search,.icon_search').show().parent('form').removeClass('form_search');
+      $('.wap_header_box').removeClass('add_border');
+      $('.icon_logo').show();
+      $('.icon_search').show();
+      $('.login').show();
+      $('#header_hot').hide();
+    });
+
+      // 获取dom对象
+      // 盒子轮播图
+      var $banner = $('.wap_banner');
+      var $imageBox = $banner.find('ul:first');
+      var $pointBox = $banner.find('ul:eq(1)');
+      var $lis = $pointBox.find('li');
+      var $width = $banner.width();
+      // console.log($width);
+      function animateFuc(callback){
+          $imageBox.animate({'transform':'translateX('+(-index*$width)+'px)'},200,'ease',function(){
+                if(index >= 4){
+                  index = 1;
+                }else if(index <= 0){
+                  index = 3;
+                }
+              $imageBox.css({'transform':'translateX('+(-index*$width)+'px)'});
+
+              setPoint();
+
+              // 滑动时用
+              callback && callback();
+
+        });
+      }
+      
+      // 1.滚动起来
+      var index = 1;
+      var timer;
+      timer = setInterval(function(){
+        index++;
+        animateFuc();
+      },2000);
+
+
+     // 2.设置点的对应样式
+      var setPoint = function(){
+        var pointIndex = index;
+        if(pointIndex >= 4){
+          index = 1;
+        }else if(pointIndex <= 0){
+          index = 3;
+        }
+        $lis.removeClass('now');
+        $lis.eq(pointIndex-1).addClass('now');
+      }
+
+      // 3.滑动
+      $imageBox.on('swipeLeft',function(){
+        console.log('swipeLeft');
+        index++;
+        clearInterval(timer);
+        animateFuc(function(){
+          timer = setInterval(function(){
+            index ++;
+            animateFuc();
+          },2000);
+        });
+      });
+
+      $imageBox.on('swipeRight',function(){
+        index--;
+        clearInterval(timer);
+        animateFuc(function(){
+          timer = setInterval(function(){
+            index ++;
+            animateFuc();
+          },2000);
+        });
+      });
+
+
+
+    });
+  </script>
+</body>
+</html>
